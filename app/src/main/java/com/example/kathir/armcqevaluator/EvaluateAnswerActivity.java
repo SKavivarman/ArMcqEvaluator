@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -49,8 +50,10 @@ public class EvaluateAnswerActivity extends AppCompatActivity {
             rg.setOrientation(RadioGroup.HORIZONTAL);
             for (int i = 0; i < 5; i++) {
                 rb[i] = new RadioButton(this);
+                rb[i].setText("            ");
                 rg.addView(rb[i]);
-                rb[i].setText(answers[i] + "    ");
+                rb[i].setText("          ");
+//                rb[i].setText("  " + answers[i] + "     ");
                 rb[i].setEnabled(false);
             }
 

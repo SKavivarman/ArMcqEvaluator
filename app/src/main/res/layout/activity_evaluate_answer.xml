@@ -65,10 +65,25 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:id="@+id/linear2"
+        android:background="@mipmap/lll"
+        android:layout_marginTop="66dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"></LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_alignParentStart="true"
         android:layout_marginTop="104dp"
-        android:id="@+id/linear1"></LinearLayout>
-        <!--android:layout_below="@+id/textView5"-->
+        android:id="@+id/linear1">
+        <!--android:background="@mipmap/ccc">-->
+
+    </LinearLayout>
+
+
+    <!--android:layout_below="@+id/textView5"-->
 
 
 
