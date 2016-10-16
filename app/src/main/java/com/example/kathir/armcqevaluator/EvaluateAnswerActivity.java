@@ -35,6 +35,8 @@ public class EvaluateAnswerActivity extends AppCompatActivity {
 //        q4.setText(getScheme().get(3));
 //        q5.setText(getScheme().get(4));
 
+
+        ArrayList<String> answerScheme = getScheme();
         LinearLayout mLinearLayout = (LinearLayout) findViewById(R.id.linear1);
         for(int k = 1; k <= 20; k++) {
             //create text button
@@ -49,7 +51,24 @@ public class EvaluateAnswerActivity extends AppCompatActivity {
                 rb[i] = new RadioButton(this);
                 rg.addView(rb[i]);
                 rb[i].setText(answers[i] + "    ");
+                rb[i].setEnabled(false);
+            }
 
+            int p = k-1;
+            if(answerScheme.get(p).equalsIgnoreCase("A")){
+                rb[0].setChecked(true);
+            }
+            if(answerScheme.get(p).equalsIgnoreCase("B")){
+                rb[1].setChecked(true);
+            }
+            if(answerScheme.get(p).equalsIgnoreCase("C")){
+                rb[2].setChecked(true);
+            }
+            if(answerScheme.get(p).equalsIgnoreCase("D")){
+                rb[3].setChecked(true);
+            }
+            if(answerScheme.get(p).equalsIgnoreCase("E")){
+                rb[4].setChecked(true);
             }
             mLinearLayout.addView(rg);
         }

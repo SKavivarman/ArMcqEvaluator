@@ -40,6 +40,21 @@ public class DBhelper extends SQLiteOpenHelper {
         db.execSQL("INSERT INTO " + TABLE1 + " VALUES(3,'3','B')");
         db.execSQL("INSERT INTO " + TABLE1 + " VALUES(4,'4','D')");
         db.execSQL("INSERT INTO " + TABLE1 + " VALUES(5,'5','C')");
+        db.execSQL("INSERT INTO " + TABLE1 + " VALUES(6,'6','A')");
+        db.execSQL("INSERT INTO " + TABLE1 + " VALUES(7,'7','A')");
+        db.execSQL("INSERT INTO " + TABLE1 + " VALUES(8,'8','B')");
+        db.execSQL("INSERT INTO " + TABLE1 + " VALUES(9,'9','D')");
+        db.execSQL("INSERT INTO " + TABLE1 + " VALUES(10,'10','C')");
+        db.execSQL("INSERT INTO " + TABLE1 + " VALUES(11,'11','A')");
+        db.execSQL("INSERT INTO " + TABLE1 + " VALUES(12,'12','A')");
+        db.execSQL("INSERT INTO " + TABLE1 + " VALUES(13,'13','B')");
+        db.execSQL("INSERT INTO " + TABLE1 + " VALUES(14,'14','D')");
+        db.execSQL("INSERT INTO " + TABLE1 + " VALUES(15,'15','C')");
+        db.execSQL("INSERT INTO " + TABLE1 + " VALUES(16,'16','A')");
+        db.execSQL("INSERT INTO " + TABLE1 + " VALUES(17,'17','A')");
+        db.execSQL("INSERT INTO " + TABLE1 + " VALUES(18,'18','B')");
+        db.execSQL("INSERT INTO " + TABLE1 + " VALUES(19,'19','D')");
+        db.execSQL("INSERT INTO " + TABLE1 + " VALUES(20,'20','C')");
 
 
     }
