@@ -46,7 +46,7 @@ public class EvaluateAnswerActivity extends AppCompatActivity {
         for(int k = 1; k <= 20; k++) {
             //create text button
             TextView title = new TextView(this);
-            title.setText("Question Number:" + k);
+            title.setText("Q: " + k);
             mLinearLayout.addView(title);
             // create radio button
             final RadioButton[] rb = new RadioButton[5];

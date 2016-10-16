@@ -15,5 +15,12 @@
         android:text="Evaluate Scheme"
         android:id="@+id/btnEvaluate"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button"
+        android:textColor="#3D3C3A"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:padding="10dip"/>
+
+
 </RelativeLayout>
