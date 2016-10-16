@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">ArMcqEvaluator</string>
+
+    <string-array name="year">
+        <item>Year 1</item>
+        <item>Year 2</item>
+        <item>Year 3</item>
+        <item>Year 4</item>
+    </string-array>
+
+    <string-array name="semester">
+        <item>Semester 1</item>
+        <item>Semester 2</item>
+    </string-array>
+
+    <string-array name="module">
+        <item>DBMS III</item>
+        <item>SET</item>
+        <item>SETM</item>
+        <item>SA</item>
+        <item>SEP II</item>
+    </string-array>
+
 </resources>
+
+
