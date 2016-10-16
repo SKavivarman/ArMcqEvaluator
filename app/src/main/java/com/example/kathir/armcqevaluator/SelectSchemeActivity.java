@@ -6,6 +6,7 @@ import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.Toast;
@@ -35,6 +36,9 @@ public class SelectSchemeActivity extends AppCompatActivity {
         btnOk.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent st = new Intent(SelectSchemeActivity.this, EvaluateAnswerActivity.class); //redirecting to another activity
+                st.putExtra("year", spYear.getSelectedItem().toString());
+                st.putExtra("sem", spSemester.getSelectedItem().toString());
+                st.putExtra("mod", spModule.getSelectedItem().toString());
                 startActivity(st);
             }
         });

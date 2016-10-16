@@ -22,17 +22,21 @@ public class EvaluateAnswerActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_evaluate_answer);
 
-//        q1 = (TextView) findViewById(R.id.textView1);
-//        q2 = (TextView) findViewById(R.id.textView2);
-//        q3 = (TextView) findViewById(R.id.textView3);
+        String year= getIntent().getStringExtra("year");
+        String sem= getIntent().getStringExtra("sem");
+        String mod= getIntent().getStringExtra("mod");
+
+        q1 = (TextView) findViewById(R.id.textView);
+        q2 = (TextView) findViewById(R.id.textView2);
+        q3 = (TextView) findViewById(R.id.textView3);
 //        q4 = (TextView) findViewById(R.id.textView4);
 //        q5 = (TextView) findViewById(R.id.textView5);
 
         helper = new DBhelper(this);
 
-//        q1.setText(getScheme().get(0));
-//        q2.setText(getScheme().get(1));
-//        q3.setText(getScheme().get(2));
+        q1.setText(year);
+        q2.setText(sem);
+        q3.setText(mod);
 //        q4.setText(getScheme().get(3));
 //        q5.setText(getScheme().get(4));
 
