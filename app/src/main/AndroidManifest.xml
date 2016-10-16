@@ -15,11 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".EvaluateAnswerActivity">
-            </activity>
-        <activity android:name=".SelectSchemeActivity">
-
-        </activity>
+        <activity android:name=".EvaluateAnswerActivity"></activity>
+        <activity android:name=".SelectSchemeActivity"></activity>
     </application>
 
 </manifest>
