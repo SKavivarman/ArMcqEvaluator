@@ -22,7 +22,7 @@
         android:ems="10"
         android:layout_x="126dp"
         android:layout_y="18dp"
-        android:id="@+id/editText2" />
+        android:id="@+id/txtStudentID" />
 
     <TextView
         android:text="Year"
